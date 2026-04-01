@@ -1,4 +1,4 @@
-// Navigation Toggle for Mobile
+
 const burger = document.querySelector('.burger');
 const nav = document.querySelector('.nav-links');
 
@@ -6,7 +6,7 @@ burger?.addEventListener('click', () => {
     nav.classList.toggle('nav-active');
 });
 
-// Scroll Spy: Highlight active section in navbar
+
 const sections = document.querySelectorAll('section');
 const navLinks = document.querySelectorAll('.nav-links a');
 
@@ -28,13 +28,13 @@ window.onscroll = () => {
     });
 };
 
-// Simple Contact Form Handling
+
 const contactForm = document.getElementById('contact-form');
 
 contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
     
-    // Basic animation/feedback
+  
     const btn = contactForm.querySelector('button');
     const originalText = btn.innerText;
     
@@ -48,7 +48,7 @@ contactForm.addEventListener('submit', (e) => {
     }, 3000);
 });
 
-// Reveal elements on scroll (Intersection Observer)
+
 const observerOptions = { threshold: 0.1 };
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
