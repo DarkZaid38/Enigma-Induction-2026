@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\sthit\\.gradle\\daemon\\8.0\\com.maharana.notesapp-merged_res-71:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\sthit\\.gradle\\daemon\\8.0\\com.maharana.notesapp-main-73:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "com.maharana.notesapp-merged_res-71:/xml_file_paths.xml.flat",
+        "source": "com.maharana.notesapp-main-73:/xml/file_paths.xml"
+    }
+]
